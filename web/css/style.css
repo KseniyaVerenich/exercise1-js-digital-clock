@@ -1,0 +1,58 @@
+body {
+    background-color: lavenderblush;
+    background-image: url(/img/unicorn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#clock {
+    color: palevioletred;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+
+    
+}
+
+
+.rowlarge {
+
+    margin-top: 130px;
+
+}
+
+@media (min-width: 445px){
+    .rowlarge {
+        margin-top: 160px;
+    }
+
+}
+
+
+@media (min-width: 576px){
+    .rowlarge {
+        margin-top: 240px;
+    }
+
+}
+
+@media (min-width: 767px){
+    .rowlarge {
+        margin-top: 300px;
+    }
+
+}
+
+@media (min-width: 991px){
+    .rowlarge {
+        margin-top: 375px;
+    }
+
+}
+
+@media (min-width: 1199px){
+    .rowlarge {
+        margin-top: 375px;
+    }
+
+}
